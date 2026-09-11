@@ -63,6 +63,24 @@ h2 {
     margin-bottom: 15px;
 
 }
+
+.projekt-innehåll {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid black;
+    padding: 30px;
+
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.projekt-h2 {
+   width: fit-content;
+   margin: 0 auto;
+
+}
 @media (min-width: 768px) {
 
     main {
