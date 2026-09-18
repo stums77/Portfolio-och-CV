@@ -13,6 +13,10 @@ body {
 
 }
 
+.main-projekt {
+    display: flex;
+}
+
 main {
     width: 100%;
     max-width: 1100px;
@@ -77,13 +81,13 @@ h2 {
 }
 
 .projekt-h2 {
-   width: fit-content;
+   width: fit-content; /* Gör linjen under lika bred som innehållet */
    margin: 0 auto;
 
 }
 @media (min-width: 768px) {
 
-    main {
+    .cv-main {
         display: grid;
         grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
         gap: 2rem;
